@@ -1,0 +1,285 @@
+@media screen and (max-width:1290px) {
+    .service-list {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    .service-list ul li {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:1110px) {
+    .service-list ul li {
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .service-list ul li {
+        margin-left: 1.5%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .main-services-content {
+        margin-top: 120px;
+    }
+
+    .service-list ul li {
+        margin-left: 12%;
+    }
+
+    .slider-changine-buttons {
+        bottom: 0;
+    }
+
+    header {
+        height: 70px;
+        display: block;
+        position: relative;
+    }
+
+    header ul {
+        background: rgba(0, 0, 0, 0.801);
+        width: 300px;
+        padding: 10px;
+        top: 70px;
+        right: 0px;
+        position: absolute;
+        z-index: 100;
+        transition: .4s;
+        opacity: 0;
+        transform: scale(0);
+        box-shadow: 0 0 30px black;
+    }
+
+    header ul li {
+        width: 280px;
+        margin-left: 0;
+        border-radius: 0;
+        text-align: left !important;
+        padding: 10px;
+        padding-left: 10px;
+        border: 0;
+        display: block;
+        margin: 2px;
+    }
+
+    header ul li:hover {
+        border: none;
+        border-left: 1px dotted white;
+        border-right: 1px dotted white;
+    }
+
+    .logo-div {
+        display: inline-block;
+    }
+
+    .menu-bar {
+        display: flex !important;
+        float: right;
+        min-width: 100px;
+        height: 70px;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.418);
+        overflow: hidden;
+        position: relative;
+        border-bottom: 2px solid white;
+    }
+
+    .menu-bar button {
+        background: none;
+    }
+
+    .menu-bar button::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: white;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: .4s;
+        transform: scale(0);
+    }
+
+    .menu-bar button:focus::before {
+        transform: scale(2);
+        animation: buttonAnimation infinite 3s linear;
+    }
+
+    @keyframes buttonAnimation {
+        50% {
+            background: transparent;
+        }
+    }
+
+    .menu-bar i {
+        color: white;
+        transition: .4s;
+    }
+
+    .menu-bar i:hover {
+        text-shadow: 0 0 20px rgb(0, 174, 255);
+        color: rgb(0, 183, 255);
+    }
+
+    .menu-active {
+        right: 0;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .logo-div img {
+        width: 100%;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+    .service-list ul li {
+        margin-left: 5%;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    .service-list ul li {
+        margin-left: 5%;
+    }
+
+    .person-container img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:710px) {
+    .service-list ul li {
+        margin-left: 1%;
+    }
+
+    .intro-container article {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px !important;
+
+    }
+}
+
+
+@media screen and (max-width:660pc) {
+    .service-list ul li {
+        max-width: 90%;
+        margin-left: 5%;
+
+    }
+
+    .intro-container {
+        top: 50px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .how-it-work {
+        padding-left: 5%;
+    }
+
+    .person-container {
+        max-width: 90%;
+        margin-left: 5%;
+    }
+
+    .intro-ol li {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .faq-section {
+        margin-top: 150px;
+    }
+
+    .contact-div {
+        flex-direction: column;
+    }
+
+    .c-last-ul {
+        float: left;
+        border-left: 1px solid white;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .intro-container {
+        top: 200px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .service-list ul li {
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .service-list ul li {
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .service-list ul li {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .intro-container {
+        font-size: 10px;
+    }
+
+    .services-title {
+        font-size: 20px !important;
+    }
+
+    .service-list ul li:hover img {
+        transform: translate(-160px, -50px) scale(1);
+    }
+
+    .faq-title-f {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .each-person-container {
+        width: 100% !important;
+        margin-left: 0;
+    }
+    .p-p-title,.how-work-title{
+        font-size: 20px !important;
+    }
+    .menu-bar {
+        min-width:25% !important;
+    }
+    .menu-active{
+        width: 100%;
+    }
+    .faq-title{
+        font-size: 15px;
+    }
+    .faq-container {
+        width: 100%;
+        margin-left: 0;
+    }
+    .intro-ol {
+        font-size: 15px;
+    }
+}
